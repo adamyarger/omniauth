@@ -1,0 +1,125 @@
+
+
+
+.form-bigbox {
+	@include outer-container;
+	margin-bottom: 150px;
+}
+
+.form-box {
+	@include span-columns(8);
+	@include shift(2);
+  background-color: $white;
+  padding: 40px;
+/*  margin-top: 100px;*/
+  border-radius: 10px;
+}
+
+
+
+#stream {
+	border: 1px solid #dddddd;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+#stream-list{
+	width: auto;
+	height: 100%;
+	overflow:scroll;
+	padding-bottom: 82px;
+	padding-top: 15px;
+	/*text-align: center;*/
+
+}
+
+#stream-item:last-child{
+	margin-bottom:3.5em;
+}
+
+.follow-list{
+
+
+	li{
+		border-bottom: 1px solid #e0e6ef;
+		width: 100%;
+		height: 65px;
+		padding: 14px 0 0px 9px;
+		margin-top: -30px;
+	}
+
+	li:hover{
+		background-color: #F8F9FA;
+
+	}
+
+	span.list-user{
+		margin-bottom: 1px;
+	}
+	input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+	margin-left: 0px;
+	float: right;
+	margin-right: 22px;
+	/* line-height: 5; */
+	margin-top: 8px;
+	}
+
+
+}
+
+
+#stream-footer{
+	@include span-columns(8 of 8);
+	float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #d9e0e2;
+  bottom: 2px;
+  box-shadow: 0 -2px 0 rgba(217, 224, 226, 0.2);
+  font-size: .875em;
+  /* right: 0; */
+  padding: .75em 0 1em;
+  position: absolute;
+  text-align: center;
+  /* width: 324px; */
+  color: #ff3c1f;
+  font-family: "Brandon", Helvetica, Arial, sans-serif;
+
+	.btn{
+		width: 95%;
+	}
+}
+
+
+
+
+textarea.message_body{
+	width: 94%;
+	margin-top: 13px;
+	height: 36px;
+	margin-left: 3%;
+	height: 80px;
+	border: 1px solid #dddddd;
+}
+
+
+
+span.list-group-item{
+	float: left;
+	padding: 9px;
+}
+
+#stream{
+	.round-image-50 img{
+		float: left;
+		
+	}
+
+}
+
+/******************* checkbox **********************/
